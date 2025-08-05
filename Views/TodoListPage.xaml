@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Views.TodoListPage"
+             xmlns:local="clr-namespace:TodoApp.ViewModels"
+             xmlns:model="clr-namespace:TodoApp.Models"
+             Title="{Binding Title}"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <Grid>
+        <!-- Fondo con gradiente -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#667eea" Offset="0.0" />
+                <GradientStop Color="#764ba2" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Frame Grid.Row="0" 
+               BackgroundColor="Transparent" 
+               HasShadow="False"
+               Padding="20,40,20,20">
+            <StackLayout>
+                <Label Text="Todo" 
+                       FontSize="32" 
+                       FontAttributes="Bold" 
+                       TextColor="White" 
+                       HorizontalOptions="Center"/>
+                <Label Text="Organiza tus tareas diarias" 
+                       FontSize="16" 
+                       TextColor="White" 
+                       Opacity="0.8" 
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Lista de Items -->
+        <RefreshView Grid.Row="1" 
+                     IsRefreshing="{Binding IsBusy, Mode=TwoWay}" 
+                     Command="{Binding LoadItemsCommand}"
+                     RefreshColor="White">
+            <CollectionView ItemsSource="{Binding Items}"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:TodoItem">
+                        <Grid Padding="15,5">
+                            <Frame BackgroundColor="White" 
+                                   HasShadow="True" 
+                                   CornerRadius="15"
+                                   Padding="0">
+                                <Grid Padding="20,15">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <!-- Contenido del Item -->
+                                    <StackLayout Grid.Row="0" Grid.Column="0" Grid.RowSpan="2">
+                                        <Label Text="{Binding Name}" 
+                                               FontSize="18" 
+                                               FontAttributes="Bold" 
+                                               TextColor="#333"
+                                               TextDecorations="{Binding Done, Converter={StaticResource BoolToTextDecorationConverter}}"/>
+                                        <Label Text="{Binding Notes}" 
+                                               FontSize="14" 
+                                               TextColor="#666" 
+                                               IsVisible="{Binding Notes, Converter={StaticResource StringToBoolConverter}}"
+                                               TextDecorations="{Binding Done, Converter={StaticResource BoolToTextDecorationConverter}}"/>
+                                    </StackLayout>
+
+                                    <!-- Botón Toggle -->
+                                    <Button Grid.Row="0" Grid.Column="1" 
+                                            Text="{Binding Done, Converter={StaticResource BoolToCheckConverter}}"
+                                            BackgroundColor="{Binding Done, Converter={StaticResource BoolToColorConverter}}"
+                                            TextColor="White"
+                                            FontSize="16"
+                                            CornerRadius="20"
+                                            WidthRequest="40"
+                                            HeightRequest="40"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type local:TodoListViewModel}}, Path=ToggleItemCommand}"
+                                            CommandParameter="{Binding .}"/>
+
+                                    <!-- Botón Eliminar -->
+                                    <Button Grid.Row="0" Grid.Column="2" 
+                                            Text="🗑️"
+                                            BackgroundColor="#ff4757"
+                                            TextColor="White"
+                                            FontSize="16"
+                                            CornerRadius="20"
+                                            WidthRequest="40"
+                                            HeightRequest="40"
+                                            Margin="10,0,0,0"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type local:TodoListViewModel}}, Path=DeleteItemCommand}"
+                                            CommandParameter="{Binding .}"/>
+
+                                    <!-- Gesture para editar -->
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type local:TodoListViewModel}}, Path=ItemTappedCommand}"
+                                                              CommandParameter="{Binding .}"/>
+                                    </Grid.GestureRecognizers>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+
+        <!-- Botón Agregar -->
+        <Button Grid.Row="2" 
+                Text="Add New Item"
+                BackgroundColor="White"
+                TextColor="#667eea"
+                FontSize="18"
+                FontAttributes="Bold"
+                CornerRadius="25"
+                Margin="20"
+                HeightRequest="50"
+                Command="{Binding AddItemCommand}"
+                />
+    </Grid>
+</ContentPage>

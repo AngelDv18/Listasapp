@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Views.TodoItemPage"
+             Title="Todo Item"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <Grid>
+        <!-- Fondo con gradiente -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#667eea" Offset="0.0" />
+                <GradientStop Color="#764ba2" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <ScrollView Padding="20">
+            <StackLayout Spacing="20">
+
+                <!-- Header -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0,20,0,20">
+                    <Label Text="✏️ Editar Tarea" 
+                           FontSize="28" 
+                           FontAttributes="Bold" 
+                           TextColor="White" 
+                           HorizontalOptions="Center"/>
+                </Frame>
+
+                <!-- Card Principal -->
+                <Frame BackgroundColor="White" 
+                       HasShadow="True" 
+                       CornerRadius="20"
+                       Padding="30">
+                    <StackLayout Spacing="25">
+
+                        <!-- Campo Nombre -->
+                        <StackLayout>
+                            <Label Text="Nombre de la tarea" 
+                                   FontSize="16" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#333" 
+                                   Margin="0,0,0,5"/>
+                            <Frame BackgroundColor="#f8f9fa" 
+                                   HasShadow="False" 
+                                   CornerRadius="10" 
+                                   Padding="15,10">
+                                <Entry Text="{Binding Name}" 
+                                       Placeholder="¿Qué necesitas hacer?"
+                                       BackgroundColor="Transparent"
+                                       FontSize="16"
+                                       TextColor="#000000"/>
+                            </Frame>
+                        </StackLayout>
+
+                        <!-- Campo Notas -->
+                        <StackLayout>
+                            <Label Text="Notas adicionales" 
+                                   FontSize="16" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#333" 
+                                   Margin="0,0,0,5"/>
+                            <Frame BackgroundColor="#f8f9fa" 
+                                   HasShadow="False" 
+                                   CornerRadius="10" 
+                                   Padding="15,10">
+                                <Editor Text="{Binding Notes}" 
+                                        Placeholder="Agrega detalles o notas..."
+                                        BackgroundColor="Transparent"
+                                        FontSize="16"
+                                        HeightRequest="100"
+                                        TextColor="#000000"/>
+                            </Frame>
+                        </StackLayout>
+
+                        <!-- Estado Completado -->
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Label Text="Tarea completada" 
+                                   FontSize="16" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#333" 
+                                   VerticalOptions="Center"/>
+                            <Switch IsToggled="{Binding Done}" 
+                                    OnColor="#667eea"
+                                    ThumbColor="White"/>
+                        </StackLayout>
+
+                    </StackLayout>
+                </Frame>
+
+                <!-- Botones -->
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+
+                    <!-- Botón Cancelar -->
+                    <Button Grid.Column="0"
+                            Text="Cancelar"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            BorderColor="White"
+                            BorderWidth="2"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Command="{Binding CancelCommand}"/>
+
+                    <!-- Botón Guardar -->
+                    <Button Grid.Column="1"
+                            Text="Guardar"
+                            BackgroundColor="White"
+                            TextColor="#667eea"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            CornerRadius="25"
+                            HeightRequest="50"
+                            Command="{Binding SaveCommand}"/>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

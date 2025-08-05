@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<style name="MainTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+		<!-- Personaliza los colores si gustas -->
+		<item name="colorPrimary">#667eea</item>
+		<item name="colorPrimaryDark">#764ba2</item>
+		<item name="colorAccent">#ff4081</item>
+	</style>
+</resources>

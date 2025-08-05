@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\TodoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\viewmodels\\todolistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:viewmodels\\todolistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\viewmodels\\todoitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:viewmodels\\todoitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\platforms\\android\\resources\\values\\styles.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:platforms\\android\\resources\\values\\styles.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\platforms\\android\\resources\\values\\colors.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:platforms\\android\\resources\\values\\colors.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\views\\todoitempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:views\\todoitempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\views\\todolistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:views\\todolistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\services\\todoitemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:services\\todoitemdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\views\\todolistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:views\\todolistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\views\\todoitempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:views\\todoitempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\converters\\stringtoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:converters\\stringtoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\converters\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:converters\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\converters\\booltocheckconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:converters\\booltocheckconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|c:\\users\\angel\\source\\repos\\todoapp\\converters\\booltotextdecorationconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6208EA-5DF8-45AB-BE11-A060DB67145D}|TodoApp.csproj|solutionrelative:converters\\booltotextdecorationconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.xml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Platforms\\Android\\Resources\\values\\styles.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\values\\styles.xml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Platforms\\Android\\Resources\\values\\styles.xml",
+              "RelativeToolTip": "Platforms\\Android\\Resources\\values\\styles.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-10T02:37:54.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "colors.xml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\values\\colors.xml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeToolTip": "Platforms\\Android\\Resources\\values\\colors.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-10T02:34:39.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\ViewModels\\TodoListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TodoListViewModel.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\ViewModels\\TodoListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TodoListViewModel.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwFwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:59:02.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TodoItemDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Services\\TodoItemDatabase.cs",
+              "RelativeDocumentMoniker": "Services\\TodoItemDatabase.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Services\\TodoItemDatabase.cs",
+              "RelativeToolTip": "Services\\TodoItemDatabase.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA7wEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:57:56.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Services\\Constants.cs",
+              "RelativeDocumentMoniker": "Services\\Constants.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Services\\Constants.cs",
+              "RelativeToolTip": "Services\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:57:30.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:56:22.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoListPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TodoListPage.xaml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoListPage.xaml",
+              "RelativeToolTip": "Views\\TodoListPage.xaml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswDYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T02:00:46.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoItemPage.xaml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoItemPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TodoItemPage.xaml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoItemPage.xaml",
+              "RelativeToolTip": "Views\\TodoItemPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T02:01:54.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\ViewModels\\TodoItemViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TodoItemViewModel.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\ViewModels\\TodoItemViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TodoItemViewModel.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:59:49.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-10T02:35:46.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TodoListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoListPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TodoListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoListPage.xaml.cs",
+              "RelativeToolTip": "Views\\TodoListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:01:23.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAKwBAAAAAAAAAAAswMoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T01:54:21.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:58:33.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TodoItemPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoItemPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TodoItemPage.xaml.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Views\\TodoItemPage.xaml.cs",
+              "RelativeToolTip": "Views\\TodoItemPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:02:56.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BoolToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\BoolToColorConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToColorConverter.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\BoolToColorConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:04:16.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StringToBoolConverter.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\StringToBoolConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\StringToBoolConverter.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\StringToBoolConverter.cs",
+              "RelativeToolTip": "Converters\\StringToBoolConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:04:36.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-10T02:04:57.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:05:09.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:05:24.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BoolToCheckConverter.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\BoolToCheckConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToCheckConverter.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\BoolToCheckConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToCheckConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:03:52.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BoolToTextDecorationConverter.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\BoolToTextDecorationConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToTextDecorationConverter.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\TodoApp\\Converters\\BoolToTextDecorationConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToTextDecorationConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:03:15.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
